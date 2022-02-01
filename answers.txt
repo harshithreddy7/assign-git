@@ -1,0 +1,22 @@
+• What is a gitignore file and what should it include for a Java project? 
+When submitting your project to the GitHub repository, the 
+gitignore file informs git which files to ignore.
+for java .class, .jar, can be included.
+.class is a file which we get after we execute a .java file.
+we donot deal with the byte code we only deal with the source code.
+
+
+• What does fast-forward in Git mean?
+So, when we push our code into the remote repository, 
+it is given an id that serves as a pointer to it, 
+and when we create branches and reach a point where
+we wish to merge the destination branch, we simply change
+the main source branch's pointer to the destination branch's pointer.
+
+
+• Why should you have different branches?
+To isolate the work, we create branches when we want to work on two different items.
+
+
+• In a project how many remote Git repositories do you usually have?
+Only one.
